@@ -1,0 +1,14 @@
+body{
+    background-image: url("paper.gif");
+}
+h1{
+  background-color: #ffffff;
+  margin: 0;
+  border-bottom: #cccccc;
+  padding: 20px;
+
+}
+#portfolio-img{
+    width: 200px;
+    height: 200px;
+}
