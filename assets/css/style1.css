@@ -1,0 +1,48 @@
+body{
+    background-image: url("paper_background");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+.container{
+    width: 960px;
+    align-content: center;
+}
+header{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+h1{
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: 'Georgian', 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 40px;
+  position: fixed;
+  text-align: center;
+}
+a{
+    float: right;
+    color: #777777;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+#main-bio,
+#portfolio-img{
+    float: left;
+}
+#main-bio{
+    width: 70%
+}
+#footer{
+    width: 100%;
+    height: 40px;
+    background: #666666;
+    border-top: 2px solid #4aaaa5;
+}
