@@ -1,36 +1,63 @@
 body{
-    background-image: url("paper_background");
+    background-image: url("assets/images/001_paper_2872x2592_all-free-download.com.jpg");
+    height: 100%;
+    margin: 0;
     background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 .container{
     width: 960px;
-    align-content: center;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px;
 }
 header{
     width: 100%;
-    height: 40px;
+    height: 76px;
     position: fixed;
     background: #ffffff;
     border-bottom: 1px solid #cccccc;
+    margin: 0 auto;
 }
 h1{
   background-color: #4aaaa5;
   color: #ffffff;
   font-family: 'Georgian', 'Times New Roman', Times, serif;
-  margin: 0;
-  padding: 40px;
-  position: fixed;
+  margin-left: 140px;
+  margin-top: 0;
+  padding: 20px;
+  position: absolute;
   text-align: center;
+}
+h2{
+    font-family: 'Georgian', 'Times New Roman', Times, serif;
+    color: #4aaaa5;
 }
 a{
     float: right;
     color: #777777;
+    padding: 4px;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+li{
+    display: inline;
+    margin-right: 140px;
+}
+ul{
+    margin-right: 140px;
+}
+p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    letter-spacing: 1px;
+    line-height: 1.8;
 }
 img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-right: 20px;
 }
 #main-bio,
@@ -44,5 +71,7 @@ img{
     width: 100%;
     height: 40px;
     background: #666666;
-    border-top: 2px solid #4aaaa5;
+    border-top: 6px solid #4aaaa5;
+    margin-top: 242px;
+    clear: both;
 }
