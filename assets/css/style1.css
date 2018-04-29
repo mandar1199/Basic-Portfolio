@@ -1,5 +1,5 @@
 body{
-    background-image: url("assets/images/001_paper_2872x2592_all-free-download.com.jpg");
+    background-image: url("../images/001_paper_2872x2592_all-free-download.com.jpg");
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
@@ -7,7 +7,6 @@ body{
     background-size: cover;
 }
 .container{
-    width: 960px;
     margin: 0 auto;
     background-color: #ffffff;
     border: 1px solid #dddddd;
@@ -34,6 +33,11 @@ h1{
 h2{
     font-family: 'Georgian', 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    margin: 10px;
+    padding: 20px;
+    border-bottom: 2px solid #cccccc;
+    font-size: 35px;
+    margin-top: 10px;
 }
 a{
     float: right;
@@ -65,13 +69,20 @@ img{
     float: left;
 }
 #main-bio{
-    width: 70%
+    width: 960px;
+    margin-top: 100px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    height: 40%;
+    margin-left: 120px;
+
 }
 #footer{
     width: 100%;
     height: 40px;
     background: #666666;
     border-top: 6px solid #4aaaa5;
-    margin-top: 242px;
-    clear: both;
+    bottom: 0;
+    position: fixed;
 }
