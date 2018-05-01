@@ -3,7 +3,7 @@
 
     <head>  
         <meta charset="utf-8"/>
-        <title>Amanda Ferraro's Web Page</title>
+        <title>Amanda Ferraro's Contacts</title>
         <link rel= "stylesheet" type= "text/css" href= "assets/css/style1.css"/>
     </head>
     
@@ -13,11 +13,11 @@
             
             <h1>Amanda Ferraro</h1>
                 
-            <ul id="pages">
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio |</a></li>
-                <li><a href="index.html">About  |</a></li>
-            </ul>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="portfolio.html">Portfolio</a>
+            </nav>
         </header>
 
         <div class="container">
@@ -25,6 +25,28 @@
             <section id="main-bio">
 
                 <h2>Contact</h2>
+
+                <form id="contact-form">
+
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Amanda Ferraro"
+                            required="required">
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" placeholder="amandaferraro41@gmail.com"
+                            required="required">
+                        </li>
+                        <li>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message"
+                            required="required"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit" name="submit">
+                </form>
 
                    
             </section>
