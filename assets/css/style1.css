@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     background-image: url("../images/001_paper_2872x2592_all-free-download.com.jpg");
     height: 100%;
     margin: 0;
@@ -7,7 +10,11 @@ body {
     background-size: cover;
 }
 
-.container {
+main {
+    flex: 1 0 auto;
+}
+
+.container-fluid {
     margin: 0 auto;
     background-color: #ffffff;
     border: 1px solid #dddddd;
